@@ -26,3 +26,12 @@ nx generate @nrwl/angular:application --name client
 - stylesheet => sccs
 - configure routing => false
 - standalone components => false
+
+## add domain in the library
+```
+npx nx generate @nx/js:library domain
+```
+- unit test runner => none
+- bundler => none
+
+> if you don't need domain.ts, remove it.
