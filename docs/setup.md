@@ -29,9 +29,9 @@ nx generate @nrwl/angular:application --name client
 
 ## add domain in the library
 ```
-npx nx generate @nx/js:library domain
+npx nx generate @nx/js:library shared/domain
 ```
 - unit test runner => none
 - bundler => none
 
-> if you don't need domain.ts, remove it.
+> if you don't need shared-domain.ts, remove it.
