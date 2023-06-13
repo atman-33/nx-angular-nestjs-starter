@@ -12,6 +12,10 @@ nx serve client
 ```
 nx run-many --target=serve --projects=client,server
 ```
+or  
+```
+nx run-many --target=serve --all
+```
 
 ## generate NestJS component
 ```
@@ -27,6 +31,11 @@ npx nx generate @nx/nest:library feature-todo \
 ## check tags
 ```
 grep tags {libs,apps}/**/project.json
+```
+
+## lint all
+```
+nx run-many --target=lint --all
 ```
 
 ## stop listening server

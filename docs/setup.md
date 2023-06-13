@@ -7,25 +7,26 @@ cd ~/Sites
 
 ## create nx workspace NestJS app
 ```
-npx create-nx-workspace@latest --preset nest
+npx create-nx-workspace@latest --preset nest /
+--name nx-angular-nestjs-starter \
+--appName server \
+--nxCloud true
 ```
 > preset angular-nest does not exist.
-
-- create your workspace?(workspace name) => nx-angular-nestjs-starter
-- application name => server
-- generate a Dockerfile? => No
-- to make your CI faster? => Yes
 
 ## add Angular app
 ```
 npm install @nrwl/angular
 ```
 ```
-nx generate @nrwl/angular:application --name client --tags scope:client,type:app
+nx generate @nrwl/angular:application --name client \
+--style scss \
+--tags scope:client,type:app \
+--strict \
+--backendProject server \
+--standalone \
+--routing
 ```
-- stylesheet => sccs
-- configure routing => false
-- standalone components => false
 
 ## add domain in the library
 ```
