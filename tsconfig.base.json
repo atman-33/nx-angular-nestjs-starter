@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@libs/server/feature-todo": ["libs/server/feature-todo/src/index.ts"],
       "@libs/shared/domain": ["libs/shared/domain/src/index.ts"],
       "@nx-angular-nestjs-starter/shared/domain": [
         "libs/shared/domain/src/index.ts"
