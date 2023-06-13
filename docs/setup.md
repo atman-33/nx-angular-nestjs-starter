@@ -21,7 +21,7 @@ npx create-nx-workspace@latest --preset nest
 npm install @nrwl/angular
 ```
 ```
-nx generate @nrwl/angular:application --name client
+nx generate @nrwl/angular:application --name client --tags type:app,scope:client
 ```
 - stylesheet => sccs
 - configure routing => false
