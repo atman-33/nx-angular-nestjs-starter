@@ -12,3 +12,8 @@ nx serve client
 ```
 nx run-many --target=serve --projects=client,server
 ```
+
+## generate NestJS component
+```
+npx nx generate @nx/nest:library feature-todo
+```
