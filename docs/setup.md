@@ -29,7 +29,7 @@ nx generate @nrwl/angular:application --name client --tags type:app,scope:client
 
 ## add domain in the library
 ```
-npx nx generate @nx/js:library shared/domain
+npx nx generate @nx/js:library domain --directory=shared --importPath=@libs/shared/domain --tags=scope:shared,type:domain
 ```
 - unit test runner => none
 - bundler => none
