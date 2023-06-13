@@ -21,12 +21,14 @@ npm install @nrwl/angular
 ```
 nx generate @nrwl/angular:application --name client \
 --style scss \
+--prefix nans \
 --tags scope:client,type:app \
 --strict \
 --backendProject server \
 --standalone \
 --routing
 ```
+> prefix nans is nx-nangular-nestjs-starter
 
 ## add domain in the library
 ```

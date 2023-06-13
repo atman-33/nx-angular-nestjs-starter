@@ -9,7 +9,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "nxAngularNestjsStarter",
+            "prefix": "nans",
             "style": "camelCase"
           }
         ],
@@ -17,7 +17,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "nx-angular-nestjs-starter",
+            "prefix": "nans",
             "style": "kebab-case"
           }
         ]
