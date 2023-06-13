@@ -28,6 +28,35 @@ npx nx generate @nx/nest:library feature-todo \
 --tags=scope:server,type:feature
 ```
 
+## generate Angular component
+```
+nx generate @nrwl/angular:library FeatureDashboard \
+--style=scss \
+--directory=client \
+--importPath=@libs/client/feature-dashboard \
+--routing \
+--skipModule \
+--standalone \
+--tags=scope:client,type:feature
+```
+> if you would not add prefix client, add --simpleName
+
+```
+nx generate @nrwl/angular:library DataAccess \
+--style=scss \
+--directory=client \
+--importPath=@libs/client/data-access \
+--simpleName \
+--skipModule \
+--standalone
+```
+
+```
+nx generate @schematics/angular:service Api \
+--project=client-data-access \
+--path=libs/client/data-access/src/lib
+```
+
 ## check tags
 ```
 grep tags {libs,apps}/**/project.json

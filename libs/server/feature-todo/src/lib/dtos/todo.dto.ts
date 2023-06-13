@@ -1,4 +1,4 @@
-import { ITodo } from '@libs/shared/domain';
+import { ITodo, IUpdateTodo, IUpsertTodo } from '@libs/shared/domain';
 import {
     IsNotEmpty,
     IsString,
@@ -17,3 +17,14 @@ export class CreateTodoDto implements Pick<ITodo, 'title' | 'description'> {
     @IsNotEmpty()
     description!: string;
 }
+
+export class UpsertTodoDto implements IUpsertTodo {
+    id!: string;
+    title!: string;
+    description!: string;
+    completed!: boolean;
+  }
+  
+  export class UpdateTodoDto implements IUpdateTodo {
+    // 
+  }
