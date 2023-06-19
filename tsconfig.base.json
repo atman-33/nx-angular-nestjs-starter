@@ -21,7 +21,7 @@
       ],
       "@libs/server/feature-todo": ["libs/server/feature-todo/src/index.ts"],
       "@libs/shared/domain": ["libs/shared/domain/src/index.ts"],
-      "@nx-angular-nestjs-starter/shared/domain": [
+      "@nx-angular-nestjs-template/shared/domain": [
         "libs/shared/domain/src/index.ts"
       ]
     }

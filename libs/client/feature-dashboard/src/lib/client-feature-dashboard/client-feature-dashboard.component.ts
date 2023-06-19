@@ -3,7 +3,7 @@ import { Component, inject } from '@angular/core';
 import { ApiService } from '@libs/client/data-access';
 
 @Component({
-  selector: 'nx-angular-nestjs-starter-client-feature-dashboard',
+  selector: 'nx-angular-nestjs-template-client-feature-dashboard',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './client-feature-dashboard.component.html',

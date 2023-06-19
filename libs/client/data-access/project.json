@@ -2,7 +2,7 @@
   "name": "client-data-access",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/client/data-access/src",
-  "prefix": "nx-angular-nestjs-starter",
+  "prefix": "nx-angular-nestjs-template",
   "tags": ["scope:client", "type:feature"],
   "projectType": "library",
   "targets": {

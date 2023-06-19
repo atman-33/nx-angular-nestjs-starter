@@ -8,7 +8,7 @@ cd ~/Sites
 ## create nx workspace NestJS app
 ```
 npx create-nx-workspace@latest --preset nest /
---name nx-angular-nestjs-starter \
+--name nx-angular-nestjs-template \
 --appName server \
 --nxCloud true
 ```
@@ -28,7 +28,7 @@ nx generate @nrwl/angular:application --name client \
 --standalone \
 --routing
 ```
-> prefix nans is nx-nangular-nestjs-starter
+> prefix nans is nx-nangular-nestjs-template
 
 ## add domain in the library
 ```
